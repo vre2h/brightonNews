@@ -1,0 +1,22 @@
+.main-header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 56px;
+}
+
+.main-header__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+
+  .main-logo {
+    width: 80px;
+  }
+
+  .main-header__title {
+    margin-left: 1em;
+
+    font-size: 3em;
+    font-weight: 300;
+  }
+}

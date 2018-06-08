@@ -1,4 +1,13 @@
-body {
-  background-color: #c47;
-  color: #000;
-}
+// reset
+@import "blocks/_reset.scss";
+
+// media is for videos, imgs
+@import "blocks/media.scss";
+
+//body
+@import "blocks/body.scss";
+
+//styles for page
+@import "blocks/main-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/hero.scss";

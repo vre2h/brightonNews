@@ -2,7 +2,7 @@
 /* eslint-disable */
 
 'use strict';
- 
+
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	cleanCSS = require('gulp-clean-css'),
@@ -32,7 +32,7 @@ gulp.task('styles', function () {
 
 // watcher
 gulp.task('watch', function () {
-	gulp.watch('src/styles/styles.{scss,sass}', ['styles']);
+	gulp.watch('src/styles/**/*.{scss,sass}', ['styles']);
 	gulp.watch(['src/scripts/**/*.js'], ['scripts']);
 	gulp.watch('src/*.html', browserSync.reload);
 });
@@ -58,7 +58,8 @@ gulp.task('copy', function() {
 		// 'src/fonts/**/*.*',
 		'src/scripts/bundle.js',
 		'src/styles/styles.min.css',
-		'src/*.html'
+		'src/*.html',
+		'src/assets/**/*'
 	], {
 		base: 'src'
 	})
@@ -74,12 +75,12 @@ gulp.task('js', function() {
     .pipe(gulp.dest('src/scripts/'))
     .pipe(browserSync.reload({stream: true}));
 });
- 
+
 // Lets bring es6 to es5 with this.
 // Babel - converts ES6 code to ES5 - however it doesn't handle imports.
-// Browserify - crawls your code for dependencies and packages them up 
+// Browserify - crawls your code for dependencies and packages them up
 // into one file. can have plugins.
-// Babelify - a babel plugin for browserify, to make browserify 
+// Babelify - a babel plugin for browserify, to make browserify
 // handle es6 including imports.
 gulp.task('scripts', function() {
 	browserify({

@@ -1,18 +1,19 @@
 {
-  "name": "boilerplate",
+  "name": "brighton-times",
   "version": "1.0.0",
-  "description": "my boilerplate for some projects",
+  "description": "site for portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "NODE_ENV=production babel src/scripts --out-dir src/scripts/babel --source-maps inline"
+    "babel": "NODE_ENV=production babel src/scripts --out-dir src/scripts/babel --source-maps inline",
+    "watch": "gulp watch",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vre2h/boilerplate.git"
+    "url": "git+https://github.com/vre2h/BrightonTimes.git"
   },
   "keywords": [
-    "boilerplate",
     "js",
     "html",
     "scss"
@@ -20,9 +21,9 @@
   "author": "Oganisyan Vrezh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vre2h/boilerplate/issues"
+    "url": "https://github.com/vre2h/BrightonTimes/issues"
   },
-  "homepage": "https://github.com/vre2h/boilerplate#readme",
+  "homepage": "https://github.com/vre2h/BrightonTimes#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -43,9 +44,10 @@
     "gulplog": "^1.0.0",
     "run-sequence": "^2.2.1",
     "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
-    "npm": "^6.0.0"
+    "node-sass": "^4.9.0"
   }
 }

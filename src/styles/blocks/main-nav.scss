@@ -1,0 +1,29 @@
+.main-nav {
+  width: 100%;
+}
+
+.main-nav__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin: 0;
+  padding: 2em 1em;
+
+  .main-nav__item {
+    a {
+      padding: 2em;
+
+      font-size: 1em;
+      line-height: 2em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    text-transform: uppercase;
+  }
+}
