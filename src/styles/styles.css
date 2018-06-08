@@ -81,13 +81,13 @@ a {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;
   margin: 0;
-  padding: 2em 1em; }
+  padding: 0; }
   .main-nav__items .main-nav__item {
+    padding: 1.5em;
     text-transform: uppercase; }
     .main-nav__items .main-nav__item a {
-      padding: 2em;
+      padding: 1.5em;
       font-size: 1em;
       line-height: 2em; }
       .main-nav__items .main-nav__item a:hover {
