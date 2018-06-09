@@ -1,0 +1,16 @@
+.main__footer {
+  border-top: 1px solid #E0E0E0;
+  padding: 1em;
+  width: 100%;
+
+  color: #424242;
+}
+
+.footer__nav__list {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    padding: 1em;
+  }
+}

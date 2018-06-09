@@ -1,0 +1,33 @@
+.late-news {
+  padding: 1em;
+
+  color: #424242;
+}
+
+.news__header--border {
+  border-bottom: 1px solid #ccc;
+}
+
+.article__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .article__item {
+    margin: 2em 0;
+    line-height: 1.4em;
+
+    .item__text {
+      margin: 1em 0;
+    }
+
+    .item__link:hover {
+      text-decoration: underline;
+    }
+
+    .article__img {
+      float: left;
+      margin-right: 1em;
+    }
+  }
+}

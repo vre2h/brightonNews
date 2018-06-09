@@ -9,10 +9,11 @@
     position: absolute;
     bottom: 0;
 
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 
-    padding: 1em 1em 3em 1em;
+    padding: 1em;
 
     background-color: rgba(0, 0, 0, 0.7);
 
@@ -25,5 +26,17 @@
 
     font-size: 1.5em;
     font-weight: bold;
+  }
+
+  .hero__page {
+    margin-left: auto;
+    padding: 1em;
+
+    color: #107ab8;
+    font-size: 1.2em;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

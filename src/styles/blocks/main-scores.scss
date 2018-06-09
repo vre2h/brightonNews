@@ -1,0 +1,41 @@
+.scores {
+  padding-top: 20px;
+}
+
+.scores__table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  thead {
+    border-collapse: collapse;
+    color: #fff;
+    font-weight: 300;
+    background-color: #78909C;  }
+
+  td,
+  th {
+    padding: 1em;
+  }
+
+  tr:nth-child(odd) td {
+    background-color: #fff;
+  }
+
+  tr:nth-child(even) td {
+    background-color: #c3d4e0;
+  }
+
+  td:nth-child(3) {
+    text-align: right;
+  }
+
+  td:nth-child(2),
+  td:nth-child(5) {
+    text-align: center;
+  }
+
+  .table--winner {
+    font-weight: bold;
+  }
+}

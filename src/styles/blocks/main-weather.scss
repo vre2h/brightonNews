@@ -1,0 +1,51 @@
+.weather {
+  padding: 1em;
+
+  color: #424242;
+}
+
+.weather__desc,
+.weather__location {
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.weather__location {
+  font-size: 1.5em;
+}
+
+.weather__desc {
+  font-size: 1.2em;
+}
+
+.weather__today {
+  display: flex;
+  align-items: baseline;
+
+  .today__temp {
+    font-size: 4em;
+  }
+
+  .today__deg {
+    font-size: 2em;
+    font-weight: 300;
+  }
+}
+
+.week__list {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 1em;
+
+  font-weight: 300;
+
+  .week__item {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .item__img {
+    padding: 1em 0;
+  }
+}
