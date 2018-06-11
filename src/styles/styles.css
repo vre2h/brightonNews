@@ -82,7 +82,10 @@ a {
 
 @media screen and (min-width: 580px) {
   .main-header__container .hamburger {
-    display: none; } }
+    display: none; }
+  .main-header__container .main-header__title {
+    margin-left: 1em;
+    font-size: 3em; } }
 
 .main-nav {
   width: 100%;
@@ -117,7 +120,7 @@ a {
 
 @media screen and (min-width: 580px) {
   .main-nav--closed {
-    height: auto; }
+    max-height: 120px; }
   .main-nav__items {
     flex-direction: row;
     align-items: flex-start; }
