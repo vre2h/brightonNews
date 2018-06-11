@@ -14,9 +14,25 @@
   }
 
   .main-header__title {
-    margin-left: 1em;
+    margin-left: .5em;
 
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 300;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+
+    font-size: 2em;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .main-header__container {
+    .hamburger {
+      display: none;
+    }
   }
 }
