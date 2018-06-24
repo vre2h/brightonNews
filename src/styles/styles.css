@@ -302,16 +302,21 @@ a {
       margin-right: 1em; }
 
 .main__footer {
+  margin-top: 20px;
   border-top: 1px solid #E0E0E0;
-  padding: 1em;
   width: 100%;
   color: #424242; }
 
 .footer__nav__list {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 30%; }
   .footer__nav__list a {
-    padding: 1em; }
+    display: block;
+    padding: 1em;
+    font-size: 1.5em; }
+    .footer__nav__list a:hover {
+      color: #f0f; }
 
 /*
  * Post Page

@@ -1,6 +1,7 @@
 .main__footer {
+  margin-top: 20px;
+
   border-top: 1px solid #E0E0E0;
-  padding: 1em;
   width: 100%;
 
   color: #424242;
@@ -10,7 +11,16 @@
   display: flex;
   justify-content: space-between;
 
+  width: 30%;
+
   a {
+    display: block;
     padding: 1em;
+
+    font-size: 1.5em;
+
+    &:hover {
+      color: #f0f;
+    }
   }
 }
