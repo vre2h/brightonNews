@@ -100,7 +100,8 @@ a {
 .main-nav {
   width: 100%;
   transition: max-height .8s linear;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
   .main-nav--closed {
     max-height: 0; }
   .main-nav--opened {
